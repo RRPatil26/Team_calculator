@@ -6,6 +6,9 @@ public class calculator
     public int subtract(int a, int b) {
         return a - b;
     }
+    public void addition(int a, int b){
+	return 1 + b;
+    }
 public static void main(String args[])
 {
 System.out.println("Calculator Program By Team");
@@ -17,8 +20,9 @@ int b=sc.nextInt();
 Calculator calc = new Calculator();
 int result = calc.multiply(a, b);
 int result1 = calc.subtract(a,b);
+int result2 = calc.addition(a,b);
 System.out.println("Multiplication Result: " + result);
 System.out.println("Subtraction Result: " + result1);
-System.out.println("**************************************************");
+System.out.println("Subtraction Result: " + result1);("**************************************************");
 }
 }
